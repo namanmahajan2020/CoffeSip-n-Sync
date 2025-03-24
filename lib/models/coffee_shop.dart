@@ -24,7 +24,7 @@ class CoffeeShop extends ChangeNotifier {
 
   List<Coffee> get coffeeShop => _shop;
 
-  List<Coffee> get useCart => _userCart;
+  List<Coffee> get userCart => _userCart;
 
   void addItemToCart(Coffee coffee) {
     _userCart.add(coffee);
